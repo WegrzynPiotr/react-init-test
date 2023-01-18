@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+.expenses {
+    @media screen and (min-width:600px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+}
